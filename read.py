@@ -7,7 +7,9 @@ file_path = 'data/1_Alldata.xlsx'  # 替换为您的文件路径
 sheet2_name = 'Plotdata'  # 第二个工作表名称
 sheet1_name = 'Lacation'  # 第一个工作表名称
 
-# 读取两个工作表
+# 读取两个工作表LON
+
+
 df1 = pd.read_excel(file_path, sheet_name=sheet1_name)  # 第一个工作表
 df2 = pd.read_excel(file_path, sheet_name=sheet2_name)  # 第二个工作表
 
